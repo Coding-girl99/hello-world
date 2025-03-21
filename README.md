@@ -35,4 +35,4 @@
 
 6.  ==push（推送） : 推送本地分支的内容到远程仓库对应的分支内==，如果远程分支名和本地分支名称相同，则可以只写本地分支：git push origin main(将main分支推送到已经关联的远端分支)
 
-
+**总结：**git init -> git remote -> git add -> git commit -m ’’ -> git push
