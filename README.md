@@ -36,3 +36,11 @@
 6.  ==push（推送） : 推送本地分支的内容到远程仓库对应的分支内==，如果远程分支名和本地分支名称相同，则可以只写本地分支：git push origin main(将main分支推送到已经关联的远端分支)
 
 **总结：**git init -> git remote -> git add -> git commit -m ’’ -> git push
+
+## 3. 要点
+
+1. `git branch`查看本地分支，带`*`的为当前本地所在的分支
+2. `git checkout 'a'`为本地分支切换到a分支，若本地没有该分支则会自动创建，可以使用`git branch`查看
+3. `git branch -r`查看远程仓库的所有分支
+4. `git branch -a`列出所有本地分支和远程分支
+5. 在本地`push`的分支要与远程的分支名对应一样才可以`push`
